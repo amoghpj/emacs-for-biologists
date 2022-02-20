@@ -1,0 +1,7 @@
+* What is this?
+  This is an attempt to curate a list of emacs utilities for biologists.
+* How can I contribute?
+  If you have a repository with anything biology related, please create a pull request after editing the =emacs-for-biologists.org= file with a new heading, a brief description, and a link to your project.
+  If you are contributing a small code snippet, like a function, or a wrapper around a function, create a pull request with a new heading, a brief description, and an org-mode source block with the code.
+* I have a suggestion
+  Feedback welcome! Please create an issue and we can start discussing on how to make this resource more useful.
