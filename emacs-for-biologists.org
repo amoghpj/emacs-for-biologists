@@ -1,0 +1,4 @@
+#+TITLE: A collection of useful utilities for wet lab biologists
+* Melting temperature calculator
+  Uses the NEB Tm calculator API to retrieve annealing temperatures of 2 sequences.
+  Link: https://github.com/amoghpj/tmcalculator.el
