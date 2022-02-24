@@ -3,21 +3,26 @@
 ** Bioinformatics
 *** Working with sequence files - =seqel=
    =seqel= provides various utilities to handle sequence files.
+
    Link: https://github.com/rnaer/seqel
 ** Structural biology
 *** Working with PyMol visualizations
     =orgPyMolpysnips= provides useful YASnippets for quickly filling out PyMol commands to visualize protein structures
+
     Link: https://github.com/MooersLab/orgpymolpysnips
 ** Dynamical modeling
    General mode to define differential equations, supporting export to SBML, PyDSTool and other backends.
+
    Link: https://github.com/amoghpj/deqn-mode.el
 * Experimental
 ** Melting temperature calculator
   Uses the NEB Tm calculator API to retrieve annealing temperatures of 2 sequences.
+
   Link: https://github.com/amoghpj/tmcalculator.el
 * Wrappers to databases
 ** =sgd-lookup= interface to [[https://www.yeastgenome.org/][SGD]]
    Query SGD for information about yeast genes.
+
    Link: https://github.com/niwaka-ame/sgd-lookup.el
 ** Org-mode links to open gene pages in SGD
    #+begin_src emacs-lisp
