@@ -1,4 +1,25 @@
 #+TITLE: A collection of useful utilities for wet lab biologists
-* Melting temperature calculator
+* Computational
+** Working with sequence files - =seqel=
+   =seqel= provides various utilities to handle sequence files.
+   Link: https://github.com/rnaer/seqel
+* Experimental
+** Melting temperature calculator
   Uses the NEB Tm calculator API to retrieve annealing temperatures of 2 sequences.
   Link: https://github.com/amoghpj/tmcalculator.el
+* Wrappers to databases
+** =sgd-lookup= interface to [[https://www.yeastgenome.org/][SGD]]
+   Query SGD for information about yeast genes.
+   Link: https://github.com/niwaka-ame/sgd-lookup.el
+** Org-mode links to open gene pages in SGD
+   #+begin_src emacs-lisp
+   ;; example: Clicking on sgd:gal2 will open up the SGD page for gal2
+   (org-link-set-parameters
+    "sgd"
+    :follow (lambda (genename) (browse-url (concat "https://yeastgenome.org/locus/" genename)))
+    :help-echo (lambda (path) (message (concat "SGD: " path)))
+    :export (lambda (genename desc backend) 
+              (cond
+               ((eq 'latex backend)
+                (format "\\href{https://yeastgenome.org/locus/%s}{SGD:%s}" genename genename)))))
+   #+end_src
