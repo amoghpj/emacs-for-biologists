@@ -1,8 +1,16 @@
 #+TITLE: A collection of useful utilities for wet lab biologists
 * Computational
-** Working with sequence files - =seqel=
+** Bioinformatics
+*** Working with sequence files - =seqel=
    =seqel= provides various utilities to handle sequence files.
    Link: https://github.com/rnaer/seqel
+** Structural biology
+*** Working with PyMol visualizations
+    =orgPyMolpysnips= provides useful YASnippets for quickly filling out PyMol commands to visualize protein structures
+    Link: https://github.com/MooersLab/orgpymolpysnips
+** Dynamical modeling
+   General mode to define differential equations, supporting export to SBML, PyDSTool and other backends.
+   Link: https://github.com/amoghpj/deqn-mode.el
 * Experimental
 ** Melting temperature calculator
   Uses the NEB Tm calculator API to retrieve annealing temperatures of 2 sequences.
