@@ -40,3 +40,8 @@
 A GNU Emacs interface to the PubMed database of references on life sciences and biomedical topics.
 
 Link: https://gitlab.com/fvdbeek/emacs-pubmed
+
+** =org-ref-pubmed.el= within =org-ref=: Org-mode links that go to PubMed resources
+This library also includes simple search functions for Pubmed and Pubmed-clinical.
+
+Link: https://github.com/jkitchin/org-ref/blob/master/org-ref-pubmed.el
