@@ -36,3 +36,7 @@
                ((eq 'latex backend)
                 (format "\\href{https://yeastgenome.org/locus/%s}{SGD:%s}" genename genename)))))
    #+end_src
+** =emacs-pubmed= interface to PubMed
+A GNU Emacs interface to the PubMed database of references on life sciences and biomedical topics.
+
+Link: https://gitlab.com/fvdbeek/emacs-pubmed
