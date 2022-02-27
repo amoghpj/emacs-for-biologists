@@ -11,9 +11,14 @@
 
     Link: https://github.com/MooersLab/orgpymolpysnips
 ** Dynamical modeling
+*** Deqn-mode
    General mode to define differential equations, supporting export to SBML, PyDSTool and other backends.
 
    Link: https://github.com/amoghpj/deqn-mode.el
+*** Biomodels.el
+    An interface to interacting with the Biomodels API.
+
+    Link: https://github.com/amoghpj/biomodel.el
 * Experimental
 ** Melting temperature calculator
   Uses the NEB Tm calculator API to retrieve annealing temperatures of 2 sequences.
